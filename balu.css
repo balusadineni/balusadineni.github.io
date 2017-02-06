@@ -1,7 +1,67 @@
 .container {
-  height:200px;
   width: 800px;
-  background: #CCC;
-  min-height: 500px;
+  background: #FFF;
+  min-height: 800px;
   margin: auto;
+  padding: 10px;
+  padding-bottom: 20px;
+}
+.title {
+  float: left;
+  font-size: 30px;
+  color: rgb(0, 102, 255);
+  font-family: "Times New Roman", Georgia, Serif;
+}
+
+.menu {
+  float: right;
+  font-size: 20px;
+}
+
+.content {
+    padding-top: 20px;
+    width: 550px;
+    float: left;
+    font-size: 16px;
+}
+
+.subs {
+  padding-top: 90px;
+  padding-bottom: 20px;
+  float: right;
+
+}
+
+.text1 {
+  padding: 10px;
+}
+
+.profiles {
+  align: center;
+}
+
+.clear {
+  clear: both;
+}
+
+a.menu-item {
+  margin: 10px;
+}
+
+a.menu-item:hover {
+  color: #FF0000;
+}
+
+footer {
+  position: fixed;
+
+  bottom:0;
+  width:800px;
+  height:60px;
+  background-color: rgb(255, 255, 255);
+}
+
+.links {
+  color: rgb{0,0,0};
+
 }
