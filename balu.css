@@ -1,0 +1,7 @@
+.container {
+  height:200px;
+  width: 800px;
+  background: #CCC;
+  min-height: 500px;
+  margin: auto;
+}
