@@ -1,10 +1,18 @@
 .container {
-  width: 800px;
+  width: 1200px;
   background: #FFF;
-  min-height: 800px;
+  min-height: 1200px;
   margin: auto;
   padding: 10px;
   padding-bottom: 20px;
+}
+.header {
+  position:fixed;
+	top:0px;
+	width:1200px;
+	color:#CCC;
+	background:#333;
+	padding:20px;
 }
 .title {
   float: left;
@@ -16,17 +24,20 @@
 .menu {
   float: right;
   font-size: 20px;
+
 }
 
+
+
 .content {
-    padding-top: 20px;
-    width: 550px;
+    padding-top: 100px;
+    width: 800px;
     float: left;
     font-size: 16px;
 }
 
 .subs {
-  padding-top: 90px;
+  padding-top: 150px;
   padding-bottom: 20px;
   float: right;
 
@@ -46,6 +57,7 @@
 
 a.menu-item {
   margin: 10px;
+  color: #ffffff;
 }
 
 a.menu-item:hover {
@@ -54,14 +66,15 @@ a.menu-item:hover {
 
 footer {
   position: fixed;
-
   bottom:0;
-  width:800px;
+  width:1200px;
   height:60px;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
 }
 
 .links {
-  color: rgb{0,0,0};
-
+  padding-left: 460px;
+  padding-right: 300px;
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
